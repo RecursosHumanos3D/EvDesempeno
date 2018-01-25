@@ -1,0 +1,15 @@
+   $('#modalButton').click(function(){
+      $('#modal').modal('show')
+              .find('#modalContent')
+              .load($(this).attr('value'));
+   });
+   $('#actualizar').click(function(){
+      $('#modal').modal('show')
+              .find('#modalContent')
+              .load($(this).attr('value'));
+   });
+   $('#ver').click(function(){
+      $('#modal').modal('show')
+              .find('#modalContent')
+              .load($(this).attr('value'));
+   });
